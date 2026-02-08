@@ -1,0 +1,39 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_TH_ADDON_MORE_DG_EXAMINATIONS">
+
+        <LanguageCode>th</LanguageCode>
+        <LanguageNameLocalized>ภาษาไทย</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>TonWazza</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+			<!-- ================================================== Examen normal ================================================== -->
+<!-- v0.02 -->			      			
+            <GameDBLocalizedString> <LocID>EXM_MOREDG_FREIN_SAMPLING</LocID>                    <Text>การเก็บตัวอย่าง DST</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_MOREDG_FREIN_TESTING</LocID>                     <Text>การทดสอบ DST</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_MOREDG_FREIN_DESCRIPTION</LocID>                 <Text>การทดสอบ Dexamethasone suppression test (DST) ใช้เพื่อประเมินการทำงานของต่อมหมวกไตโดยการวัดระดับคอร์ติซอลที่เปลี่ยนแปลงไปเพื่อตอบสนองต่อการฉีดเดกซาเมทาโซน โดยทั่วไปจะใช้เพื่อวินิจฉัยกลุ่มอาการ Cushing's syndrome</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_MOREDG_SYNACTHENE_SAMPLING</LocID>               <Text>การเก็บตัวอย่างทดสอบกระตุ้น ACTH</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_MOREDG_SYNACTHENE_TESTING</LocID>                <Text>การทดสอบกระตุ้น ACTH</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_MOREDG_SYNACTHENE_DESCRIPTION</LocID>            <Text>การทดสอบ ACTH (หรือเรียกว่า Synacthen test) เป็นการทดสอบทางการแพทย์ที่มักสั่งและแปลผลโดยแพทย์ต่อมไร้ท่อ เพื่อประเมินการทำงานของการตอบสนองต่อความเครียดของต่อมหมวกไต โดยการวัดการตอบสนองของต่อมหมวกไตต่อฮอร์โมน Adrenocorticotropic hormone (ACTH) ACTH เป็นฮอร์โมนที่ผลิตในต่อมใต้สมองส่วนหน้าซึ่งกระตุ้นต่อมหมวกไตให้หลั่งคอร์ติซอลและฮอร์โมนอื่นๆ ในระหว่างการทดสอบ จะมีการฉีด ACTH สังเคราะห์ปริมาณเล็กน้อย และวัดปริมาณคอร์ติซอลที่ต่อมหมวกไตผลิตออกมาเพื่อตอบสนอง</Text>    </GameDBLocalizedString>
+<!-- v0.03 -->
+			<GameDBLocalizedString> <LocID>EXM_MOREDG_TEST_COMBS_SAMPLING</LocID>               <Text>การเก็บตัวอย่างทดสอบคูมบ์ส</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_MOREDG_TEST_COMBS_TESTING</LocID>                <Text>การทดสอบคูมบ์ส (Coombs test)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_MOREDG_TEST_COMBS_DESCRIPTION</LocID>            <Text>Coombs test หรือ Antiglobulin test (AGT) คือการตรวจเลือดทางภูมิคุ้มกันวิทยาโลหิตวิทยา Direct Coombs test ใช้ตรวจหาแอนติบอดีที่ติดอยู่บนพื้นผิวของเม็ดเลือดแดง</Text> </GameDBLocalizedString>
+<!-- v0.03.2 -->
+			<GameDBLocalizedString> <LocID>EXM_MOREDG_DEB_SAMPLING</LocID>                      <Text>การเก็บตัวอย่างวิเคราะห์โครโมโซมแตกหัก</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_MOREDG_DEB_TESTING</LocID>                       <Text>การวิเคราะห์โครโมโซมแตกหัก</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_MOREDG_DEB_DESCRIPTION</LocID>                   <Text>Chromosome breakage analysis เป็นการทดสอบเพื่อประเมินความไม่เสถียรของจีโนม</Text>  </GameDBLocalizedString>
+
+			<!-- ================================================== CRP - translate and transfer to CRP ==================================================
++++ v0.02 +++
+			<GameDBLocalizedString> <LocID>EXM_CRP_SCINTIGRAPHIE</LocID>                        <Text>การถ่ายภาพรังสีแกมมา (Scintigraphy)</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_CRP_SCINTIGRAPHIE_DESCRIPTION</LocID>            <Text>Scintigraphy หรือ Gamma scan เป็นการทดสอบวินิจฉัยทางเวชศาสตร์นิวเคลียร์ โดยการนำไอโซโทปรังสีที่ติดอยู่กับยา (เภสัชรังสี) เข้าสู่ร่างกาย เพื่อให้เดินทางไปยังอวัยวะหรือเนื้อเยื่อเฉพาะที่ รังสีแกมมาที่ปล่อยออกมาจะถูกจับโดยเครื่องตรวจจับภายนอก (Gamma cameras) เพื่อสร้างภาพสองมิติในกระบวนการที่คล้ายกับการจับภาพเอกซเรย์</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_CRP_ELISA_SAMPLING</LocID>                       <Text>การเก็บตัวอย่าง ELISA</Text>  </GameDBLocalizedString>    <GameDBLocalizedString> <LocID>EXM_CRP_ELISA_TESTING</LocID>                        <Text>การทดสอบ ELISA</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>EXM_CRP_ELISA_DESCRIPTION</LocID>                    <Text>Enzyme-linked immunosorbent assay (ELISA) เป็นการทดสอบทางชีวเคมีเชิงวิเคราะห์ที่ใช้กันทั่วไป ใช้เพื่อตรวจหาการมีอยู่ของลิแกนด์ (มักเป็นโปรตีน) ในตัวอย่างของเหลวโดยใช้แอนติบอดีที่จำเพาะต่อโปรตีนที่ต้องการวัด ELISA ถูกใช้เป็นเครื่องมือวินิจฉัยในทางการแพทย์ พยาธิวิทยาพืช และเทคโนโลยีชีวภาพ ตลอดจนการตรวจสอบการควบคุมคุณภาพในอุตสาหกรรมต่างๆ ในรูปแบบพื้นฐานที่สุดของ ELISA แอนติเจนจากตัวอย่างจะถูกติดไว้กับพื้นผิว จากนั้นแอนติบอดีที่เข้าคู่กันจะถูกนำมาใช้เพื่อให้จับกับแอนติเจน แอนติบอดีนี้เชื่อมโยงกับเอนไซม์ และในขั้นตอนสุดท้ายจะมีการเติมสารที่มีซับสเตรตของเอนไซม์เข้าไป ปฏิกิริยาที่ตามมาจะสร้างสัญญาณที่ตรวจจับได้ ซึ่งส่วนใหญ่เป็นการเปลี่ยนสี</Text>  </GameDBLocalizedString>
+-->
+            </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

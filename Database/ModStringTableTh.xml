@@ -1,0 +1,19 @@
+<Database>
+    <GameDBStringTable ID="LOC_TH_ADDON_MOD_MORE_DG">
+    
+    <LanguageCode>th</LanguageCode>
+    <LanguageNameLocalized>ภาษาไทย</LanguageNameLocalized>
+        
+    <Contributors>
+    <Name>TonWazza</Name>
+    </Contributors>
+        
+    <LocalizedStrings>
+        
+    <GameDBLocalizedString>      <LocID>ADDON_MOD_MORE_DG</LocID>                       <Text>การวินิจฉัยเพิ่มเติม</Text>  </GameDBLocalizedString>
+    
+    </LocalizedStrings>
+    
+    </GameDBStringTable>
+
+</Database>

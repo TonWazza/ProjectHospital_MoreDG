@@ -1,0 +1,98 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_TH_ADDON_MORE_DG_TREATMENTS">
+
+        <LanguageCode>th</LanguageCode>
+        <LanguageNameLocalized>ภาษาไทย</LanguageNameLocalized>
+
+        <Contributors>
+			<Name>TonWazza</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+			
+			<!-- ================================================== CRP - translate and transfer to CRP ==================================================
++++  v0.01  +++	
+			<GameDBLocalizedString> <LocID>TRT_CRP_KCL</LocID>                                          <Text>เกลือโพแทสเซียม</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_CRP_KCL_DESCRIPTION</LocID>                              <Text>ที่ใช้มากที่สุดคือโพแทสเซียมคลอไรด์ในรูปแบบ Micro-encapsulated เป็นโพแทสเซียมเสริมชนิดรับประทาน</Text> </GameDBLocalizedString>
++++  v0.02  +++	
+            <GameDBLocalizedString> <LocID>TRT_CRP_MOISTURIZER_CREAM</LocID>                            <Text>ครีมมอยส์เจอไรเซอร์</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_CRP_MOISTURIZER_CREAM_DESCRIPTION</LocID>                <Text>ผลิตภัณฑ์บำรุงผิวที่ใช้เพื่อป้องกันผิวแห้ง</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_CRP_GLUCOSE_IV</LocID>                                   <Text>ให้กลูโคสทางหลอดเลือด</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_CRP_GLUCOSE_IV_DESCRIPTION</LocID>                       <Text>การให้กลูโคสทางหลอดเลือดดำ</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_CRP_HYDROCORTISONE</LocID>                               <Text>ไฮโดรคอร์ติโซน</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_CRP_HYDROCORTISONE_DESCRIPTION</LocID>                   <Text>ไฮโดรคอร์ติโซนคือชื่อเรียกของฮอร์โมนคอร์ติซอลเมื่อนำมาใช้เป็นยา</Text>    </GameDBLocalizedString>
++++  v0.03  +++	
+            <GameDBLocalizedString> <LocID>TRT_CRP_AUTOGRAFT</LocID>                                    <Text>การปลูกถ่ายเนื้อเยื่อตนเอง (Autograft)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_CRP_AUTOGRAFT_DESCRIPTION</LocID>                        <Text>การปลูกถ่ายเนื้อเยื่อจากจุดหนึ่งไปยังอีกจุดหนึ่งในร่างกายของบุคคลเดียวกัน</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_CRP_ALLOGRAFT</LocID>                                    <Text>การปลูกถ่ายเนื้อเยื่อจากผู้อื่น (Allograft)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_CRP_ALLOGRAFT_DESCRIPTION</LocID>                        <Text>การปลูกถ่ายเนื้อเยื่อจากผู้บริจาคที่เป็นสปีชีส์เดียวกับผู้รับ แต่พันธุกรรมไม่เหมือนกัน</Text>    </GameDBLocalizedString>
++++  v0.03.2  +++	
+            <GameDBLocalizedString> <LocID>TRT_CRP_CHELATEUR_FER</LocID>                                <Text>ยาขับเหล็ก (Iron Chelators)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_CRP_CHELATEUR_FER_DESCRIPTION</LocID>                    <Text>เป้าหมายของการรักษาด้วยยาขับเหล็กคือการป้องกันการบาดเจ็บของเซลล์ที่มีธาตุเหล็กเป็นสื่อกลาง</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_CRP_SCLEROTHERAPIE</LocID>                               <Text>การฉีดสารทำลายหลอดเลือด (Sclerotherapy)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_CRP_SCLEROTHERAPIE_DESCRIPTION</LocID>                   <Text>คือการรักษาหลอดเลือดขอดโดยการฉีดสารระคายเคือง ซึ่งทำให้เกิดการอักเสบ การแข็งตัวของเลือด และการตีบของผนังหลอดเลือด</Text>  </GameDBLocalizedString>
++++  v0.03.3  +++
+            <GameDBLocalizedString> <LocID>TRT_CRP_IMMUNOSUPRR</LocID>                                  <Text>ยากดภูมิคุ้มกัน</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_CRP_IMMUNOSUPRR_DESCRIPTION</LocID>                      <Text>ยากดภูมิคุ้มกัน (Immunosuppressive drugs) หรือยาต้านการปฏิเสธ เป็นยาที่ยับยั้งหรือป้องกันการทำงานของระบบภูมิคุ้มกัน</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_CRP_IPP_IV</LocID>                                       <Text>ยา PPI ทางหลอดเลือด</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_CRP_IPP_IV_DESCRIPTION</LocID>                           <Text>การรักษาด้วยยา Proton Pump Inhibitor ขนาดยาสูงก่อนการส่องกล้องกระเพาะอาหารช่วยลดความจำเป็นในการห้ามเลือดผ่านกล้อง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_CRP_RADIO_EMBOLISATION</LocID>                           <Text>การอุดหลอดเลือดผ่านสายสวน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_CRP_RADIO_EMBOLISATION_DESCRIPTION</LocID>               <Text>ในหัตถการ Endovascular embolization จะมีการใส่สายสวนเข้าไปในหลอดเลือดแดงที่ขาและร้อยผ่านหลอดเลือดเพื่อฉีดสารอุดหลอดเลือดโดยใช้การถ่ายภาพเอกซเรย์ช่วย</Text>    </GameDBLocalizedString>
+-->
+
+			<!-- ================================================== Normaux ================================================== -->
+<!--  v0.02  -->		
+			<GameDBLocalizedString> <LocID>TRT_MOREDG_ANDROGENOTHERAPIE</LocID>                                 <Text>การให้ฮอร์โมนแอนโดรเจนทดแทน</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_ANDROGENOTHERAPIE_DESCRIPTION</LocID>                     <Text>Androgen replacement therapy (ART) หรือมักเรียกว่า Testosterone replacement therapy (TRT) เป็นรูปแบบหนึ่งของฮอร์โมนบำบัดที่มีการให้แอนโดรเจนทดแทน ซึ่งมักจะเป็นเทสโทสเตอโรน ART มักถูกสั่งจ่ายเพื่อต่อต้านผลกระทบของภาวะฮอร์โมนเพศต่ำในชาย</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_AGONISTE_DOPA</LocID>                                     <Text>ยา Dopamine agonist</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_AGONISTE_DOPA_DESCRIPTION</LocID>                         <Text>Dopamine receptor agonist (DA) เป็นสารประกอบที่กระตุ้นตัวรับโดพามีน ตัวรับโดพามีนมีสองตระกูล คือ D2-like และ D1-like และทั้งหมดเป็น G protein-coupled receptors DA ใช้ในโรคพาร์กินสัน และใช้รักษาโรคซึมเศร้า ภาวะโปรแลคตินสูง และกลุ่มอาการขาอยู่ไม่สุขในระดับที่น้อยกว่า</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_HC_FC</LocID>                                             <Text>ยา Hydrocortisone - Fludrocortisone</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_HC_FC_DESCRIPTION</LocID>                                 <Text>การใช้ร่วมกันของ Hydrocortisone และ Fludrocortisone</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_SUPPLEMENT_vitD</LocID>                                   <Text>วิตามินดี</Text>   </GameDBLocalizedString>
+<!--  v0.03  -->				
+			<GameDBLocalizedString> <LocID>TRT_MOREDG_ANTICORPS_MONOCLONAL</LocID>                              <Text>โมโนโคลนอลแอนติบอดี</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_ANTICORPS_MONOCLONAL_DESCRIPTION</LocID>                  <Text>Monoclonal antibodies (mAb หรือ moAb) คือแอนติบอดีที่สร้างขึ้นโดยเซลล์ภูมิคุ้มกันที่เหมือนกันทุกประการ ซึ่งเป็นโคลนของเซลล์แม่เซลล์เดียว โมโนโคลนอลแอนติบอดีสามารถมีความจำเพาะแบบ Monovalent ในการจับกับ Epitope เดียวกัน (ส่วนของแอนติเจนที่แอนติบอดีจดจำ)</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_DEFEROXAMINE</LocID>                                      <Text>ยาขับเหล็ก (Deferoxamine)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_DEFEROXAMINE_DESCRIPTION</LocID>                          <Text>Trivalent cation chelator สามารถจับกับธาตุเหล็กอิสระจากพลาสมาหรือเซลล์เพื่อสร้างสารประกอบเชิงซ้อน Ferrioxamine</Text>  </GameDBLocalizedString>
+<!--  v0.03.2  -->			
+			<GameDBLocalizedString> <LocID>TRT_MOREDG_IGP</LocID>                                               <Text>ยา GBI</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_IGP_DESCRIPTION</LocID>                                   <Text>Glycolipid Biosynthesis Inhibitors ป้องกันการสังเคราะห์ไกลโคลิพิด</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_TTT_ENZ_SUBSTITU</LocID>                                  <Text>เอนไซม์ทดแทน (ERT)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_TTT_ENZ_SUBSTITU_DESCRIPTION</LocID>                      <Text>Enzyme replacement therapy (ERT) เป็นการรักษาทางการแพทย์ที่ทดแทนเอนไซม์ที่บกพร่องหรือขาดหายไปในร่างกาย</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_PHLÉBOTOMIES</LocID>                                      <Text>การเจาะปล่อยเลือด (Phlebotomy)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_PHLÉBOTOMIES_DESCRIPTION</LocID>                          <Text>การเปิดหรือเจาะหลอดเลือดดำเพื่อนำเลือดออก เพื่อนำของเหลวเข้า หรือ (ในอดีต) เพื่อการถ่ายเลือดเสีย</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_DANAPAROÏDE_SODIQUE</LocID>                               <Text>ยา Danaparoid sodium</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_DANAPAROÏDE_SODIQUE_DESCRIPTION</LocID>                   <Text>Danaparoid sodium เป็นยาต้านการแข็งตัวของเลือดที่มีฤทธิ์ต้านลิ่มเลือดโดยการยับยั้งการสร้าง Thrombin (TGI) ด้วยสองกลไก: การยับยั้ง Factor Xa ทางอ้อมผ่าน AT และการยับยั้งการกระตุ้น Thrombin ของ Factor IX โดยตรง (วงจรป้อนกลับที่สำคัญสำหรับการสร้าง Thrombin)</Text>    </GameDBLocalizedString>
+
+			<!-- ================================================== Chirurgie ================================================== -->
+
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_REMPLACEMENT_VALVULAIRE</LocID>                           <Text>การผ่าตัดเปลี่ยนลิ้นหัวใจ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_REMPLACEMENT_VALVULAIRE_DESCRIPTION</LocID>               <Text>การผ่าตัดเปลี่ยนลิ้นหัวใจคือการแทนที่ลิ้นหัวใจหนึ่งลิ้นหรือมากกว่าด้วยลิ้นหัวใจเทียมหรือลิ้นหัวใจชีวภาพ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_PACEMAKER</LocID>                                         <Text>เครื่องกระตุ้นหัวใจ (Pace-Maker)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_PACEMAKER_DESCRIPTION</LocID>                             <Text>เครื่องกระตุ้นหัวใจ (หรือเครื่องกระตุ้นหัวใจเทียม เพื่อไม่ให้สับสนกับตัวกำหนดจังหวะตามธรรมชาติของหัวใจ) เป็นอุปกรณ์ทางการแพทย์ที่สร้างกระแสไฟฟ้าส่งผ่านขั้วไฟฟ้าเพื่อให้ห้องกล้ามเนื้อหัวใจ (ห้องบน และ/หรือ ห้องล่าง) หดตัวและสูบฉีดเลือด อุปกรณ์นี้จึงทำหน้าที่แทนและ/หรือควบคุมการทำงานของระบบนำไฟฟ้าของหัวใจ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_DAI</LocID>                                               <Text>เครื่องกระตุกหัวใจไฟฟ้าชนิดฝัง (ICD)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_DAI_DESCRIPTION</LocID>                                   <Text>Implantable cardioverter-defibrillator (ICD) เป็นอุปกรณ์ที่ฝังภายในร่างกาย สามารถทำการ Cardioversion, Defibrillation และ (ในรุ่นใหม่) กระตุ้นหัวใจ (Pacing) อุปกรณ์นี้จึงสามารถแก้ไขภาวะหัวใจเต้นผิดจังหวะที่คุกคามชีวิตได้เกือบทั้งหมด ICD เป็นการรักษาบรรทัดแรกและการป้องกันสำหรับผู้ป่วยที่มีความเสี่ยงต่อการเสียชีวิตจากหัวใจหยุดเต้นกะทันหันเนื่องจาก Ventricular fibrillation และ Ventricular tachycardia</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_REVASCULARISATION</LocID>                                 <Text>การผ่าตัดต่อหลอดเลือด (Revascularization)</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_REVASCULARISATION_DESCRIPTION</LocID>                     <Text>Vascular bypass และ Angioplasty เป็นสองวิธีหลักของการทำ Revascularization</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_APONEVROTOMIE_DECHARGE</LocID>                            <Text>การผ่าตัดพังผืด (Fasciotomy)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_APONEVROTOMIE_DECHARGE_DESCRIPTION</LocID>                <Text>Fasciotomy หรือ Fasciectomy เป็นหัตถการทางศัลยกรรมที่มีการตัดพังผืดเพื่อลดความตึงหรือความดัน มักใช้เพื่อรักษาการสูญเสียการไหลเวียนโลหิตไปยังเนื้อเยื่อหรือกล้ามเนื้อ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_MISE_A_PLAT</LocID>                                       <Text>ใส่ขดลวดค้ำยัน (Stent)</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_MISE_A_PLAT_DESCRIPTION</LocID>                           <Text>การแยกพื้นที่โป่งพองออกจากการไหลเวียนของเลือดโดยการใส่หลอดเลือดเทียม ในการทำ Graft flattening ท่อเทียมจะถูกเย็บทั้งด้านบนและด้านล่างของจุดโป่งพองเพื่อสร้างหลอดเลือดใหม่</Text>    </GameDBLocalizedString>
+<!-- v0.02 -->			
+			<GameDBLocalizedString> <LocID>TRT_MOREDG_SURRENALECTOMIE</LocID>                                   <Text>การตัดต่อมหมวกไต</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_SURRENALECTOMIE_DESCRIPTION</LocID>                       <Text>การผ่าตัดเอาต่อมหมวกไตออกหนึ่งข้างหรือทั้งสองข้าง</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_EXERESE_GS</LocID>                                        <Text>การผ่าตัดก้อนเนื้อออก</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_EXERESE_MI</LocID>                                        <Text>การผ่าตัดก้อนเนื้อออก</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_EXERESE_DESCRIPTION</LocID>                               <Text>Excision เป็นหัตถการทางศัลยกรรมที่ประกอบด้วยการนำองค์ประกอบที่เป็นอันตรายหรือไร้ประโยชน์ออกจากร่างกาย</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_THYROIDECTOMIE</LocID>                                    <Text>การตัดต่อมไทรอยด์</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_THYROIDECTOMIE_DESCRIPTION</LocID>                        <Text>การผ่าตัดเอาต่อมไทรอยด์ออก</Text>   </GameDBLocalizedString>
+<!-- v0.03 -->
+			<GameDBLocalizedString> <LocID>TRT_MOREDG_SPLENECTOMIE_MI</LocID>                                   <Text>การตัดม้าม</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_SPLENECTOMIE_DESCRIPTION</LocID>                          <Text>การผ่าตัดเอาม้ามออก</Text>    </GameDBLocalizedString>
+<!-- v0.03.2 -->			
+			<GameDBLocalizedString> <LocID>TRT_MOREDG_STÉRÉOTAXIE</LocID>                                       <Text>ศัลยกรรมรังสีระบุตำแหน่ง (Stereotactic)</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>TRT_MOREDG_STÉRÉOTAXIE_DESCRIPTION</LocID>                           <Text>Stereotactic neurosurgery เป็นเทคนิคในการระบุตำแหน่งเป้าหมายที่น่าสนใจทางศัลยกรรมภายในสมองโดยเทียบกับกรอบอ้างอิงภายนอก</Text>   </GameDBLocalizedString>
+
+		</LocalizedStrings>
+    </GameDBStringTable>
+</Database>

@@ -1,0 +1,304 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_TH_ADDON_MORE_DG_SYMPTOMS">
+
+        <LanguageCode>th</LanguageCode>
+        <LanguageNameLocalized>ภาษาไทย</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>TonWazza</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+        
+			<!-- ================================================== From CRP  ================================================== -->
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SPLENOMEGALY</LocID>                <Text>ม้ามโต (Splenomegaly)</Text>   </GameDBLocalizedString>
+    <GameDBLocalizedString> <LocID>SYM_MOREDG_HYPERCALCEMIA</LocID>               <Text>แคลเซียมในเลือดสูง</Text>  </GameDBLocalizedString>
+    <GameDBLocalizedString> <LocID>SYM_MOREDG_SEVERE_HYPERCALCEMIA</LocID>        <Text>แคลเซียมในเลือดสูงรุนแรง</Text>  </GameDBLocalizedString>
+
+			<!-- ================================================== Normaux ================================================== -->	
+<!--  v0.01  -->   
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SOUFFLE_SYSTOLIQUE</LocID>                                <Text>เสียงฟู่ของหัวใจขณะบีบตัว (Systolic murmur)</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SOUFFLE_SYSTOLIQUE_DESCRIPTION</LocID>                    <Text>Systolic heart murmurs คือเสียงฟู่ของหัวใจที่ได้ยินระหว่างจังหวะ Systole ซึ่งเป็นส่วนของวงจรการเต้นของหัวใจที่ห้องหัวใจบางส่วนบีบตัวหลังจากเติมเลือดเต็มแล้ว</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SOUFFLE_DIASTOLIQUE</LocID>                               <Text>เสียงฟู่ของหัวใจขณะคลายตัว (Diastolic murmur)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SOUFFLE_DIASTOLIQUE_DESCRIPTION</LocID>                   <Text>Diastolic heart murmurs คือเสียงฟู่ของหัวใจที่ได้ยินระหว่างจังหวะ Diastole ซึ่งเป็นส่วนของวงจรการเต้นของหัวใจที่หัวใจคลายตัวรับเลือดหลังจากบีบตัว (Systole) ส่งเลือดออกไปแล้ว</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_HVG</LocID>                                               <Text>หัวใจห้องล่างซ้ายโต (LVH)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_HVG_DESCRIPTION</LocID>                                   <Text>Left ventricular hypertrophy (LVH) คือการหนาตัวของกล้ามเนื้อหัวใจห้องล่างซ้าย</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_S1Q3</LocID>                                              <Text>รูปแบบ S1Q3 (ECG)</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_S1Q3_DESCRIPTION</LocID>                                  <Text>ตัวย่อที่หมายถึง "คลื่น S ใน Lead I และคลื่น Q ใน Lead III" ของคลื่นไฟฟ้าหัวใจ (ECG) แปลว่ามีการหมุนขวา (Dextrorotation) - ทางสรีรวิทยาหรือพยาธิวิทยา - ตามแกนยาวของหัวใจ ซึ่งนำหัวใจห้องล่างขวามาด้านหน้าและทางขวาของหัวใจห้องล่างซ้ายมากขึ้น สัญญาณนี้ ไม่ว่าจะเดี่ยวๆ หรือร่วมกับสัญญาณ ECG อื่นๆ บางครั้งใช้เพื่อสนับสนุนสมมติฐานของโรคลิ่มเลือดอุดกั้นในปอด (Pulmonary embolism)</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SCORE_WELLS</LocID>                                       <Text>คะแนน Wells เป็นบวก</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SCORE_WELLS_DESCRIPTION</LocID>                           <Text>นี่คือคะแนนการวินิจฉัยสำหรับโรคลิ่มเลือดอุดกั้นในปอด (Pulmonary embolism)</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SCORE_GENEVE</LocID>                                      <Text>คะแนน Geneva เป็นบวก</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SCORE_GENEVE_DESCRIPTION</LocID>                          <Text>นี่คือคะแนนการวินิจฉัยสำหรับโรคลิ่มเลือดอุดกั้นในปอดและลิ่มเลือดอุดตันในหลอดเลือดดำลึก</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_DDIMERE</LocID>                                           <Text>D-dimer สูง</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_DDIMERE_DESCRIPTION</LocID>                               <Text>D-dimers เกิดจากการสลายตัวของไฟบริน ซึ่งเป็นโปรตีนที่เกี่ยวข้องกับการแข็งตัวของเลือด แพทย์จะสั่งตรวจระดับ D-dimers หากสงสัยว่ามีลิ่มเลือด</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_BNP</LocID>                                               <Text>BNP สูง</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_BNP_DESCRIPTION</LocID>                                   <Text>BNP (Brain natriuretic peptide) เป็นฮอร์โมนประสาทที่สังเคราะห์โดยเซลล์หัวใจที่เรียกว่า Cardiomyocytes เพื่อตอบสนองต่อการเพิ่มขึ้นของความดันโลหิต โดยเฉพาะอย่างยิ่งในระหว่างการเกิดภาวะหัวใจล้มเหลว</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SYNDROME_LOGE</LocID>                                     <Text>กลุ่มอาการคอมพาร์ตเมนต์ (Compartment syndrome)</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SYNDROME_LOGE_DESCRIPTION</LocID>                         <Text>Compartment syndrome เป็นภาวะที่มีความดันเพิ่มขึ้นภายในช่องกายวิภาคช่องหนึ่งของร่างกาย ส่งผลให้เลือดไปเลี้ยงเนื้อเยื่อภายในช่องนั้นไม่เพียงพอ มีสองประเภทหลัก: เฉียบพลันและเรื้อรัง ช่องของขาหรือแขนมักได้รับผลกระทบมากที่สุด</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_MASSE_HYPERBATTANTE</LocID>                               <Text>ก้อนเนื้อเต้นตุบๆ รอบสะดือ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_MASSE_HYPERBATTANTE_DESCRIPTION</LocID>                   <Text>คลำพบก้อนเนื้อรอบสะดือที่เต้นตุบๆ และขยายตัวได้</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_INFARCTUS_MESENTERIQUE</LocID>                            <Text>ลำไส้ขาดเลือด</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_INFARCTUS_MESENTERIQUE_DESCRIPTION</LocID>                <Text>Mesenteric ischemia เป็นภาวะทางการแพทย์ที่เกิดการบาดเจ็บต่อลำไส้เล็กเนื่องจากเลือดไปเลี้ยงไม่เพียงพอ \n\nห้องที่ต้องการ: ห้องผ่าตัดแผนกศัลยกรรมทั่วไป + ICU</Text>    </GameDBLocalizedString>
+<!-- v0.02 -->
+			<GameDBLocalizedString> <LocID>SYM_MOREDG_ADENOME_HYPOPHYSE</LocID>                                 <Text>เนื้องอกต่อมใต้สมอง</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ADENOME_HYPOPHYSE_DESCRIPTION</LocID>                     <Text>การค้นพบเนื้องอกต่อมใต้สมอง (Pituitary adenoma) จาก MRI สิ่งนี้ไม่ได้ให้ข้อมูลเกี่ยวกับลักษณะการหลั่งฮอร์โมนหรือไม่ของเนื้องอก</Text>    </GameDBLocalizedString>
+<!-- v0.03.2 -->
+			<GameDBLocalizedString> <LocID>SYM_MOREDG_ABCES_CEREBRAL</LocID>                                    <Text>ฝีในสมอง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ABCES_CEREBRAL_DESCRIPTION</LocID>                        <Text>Brain abscess (หรือ Cerebral abscess) คือฝีที่เกิดจากการอักเสบและการสะสมของวัสดุติดเชื้อ ซึ่งมาจากแหล่งติดเชื้อเฉพาะที่ (หูอักเสบ, ฝีที่รากฟัน, ไซนัสอักเสบ, การติดเชื้อของโพรงกระดูกมาสตอยด์, ฝีเหนือดูรา) หรือจากระยะไกล (ปอด, หัวใจ, ไต ฯลฯ) ภายในเนื้อเยื่อสมอง</Text>   </GameDBLocalizedString>
+
+			<!-- ================================================== CRP - translate and transfer to CRP ==================================================	
++++  v0.01  +++
+<GameDBLocalizedString> <LocID>SYM_CRP_HYPOKALIEMIE</LocID>                                         <Text>โพแทสเซียมในเลือดต่ำ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_HYPOKALIEMIE_DESCRIPTION</LocID>                             <Text>Hypokalemia คือระดับโพแทสเซียม (K+) ในเลือดต่ำ</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_HYPERKALIEMIE</LocID>                                        <Text>โพแทสเซียมในเลือดสูง</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_HYPERKALIEMIE_DESCRIPTION</LocID>                            <Text>Hyperkalemia คือระดับโพแทสเซียม (K+) ในเลือดสูง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_OAP</LocID>                                                  <Text>น้ำท่วมปอด (Pulmonary edema)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_OAP_DESCRIPTION</LocID>                                      <Text>Pulmonary edema คือการสะสมของของเหลวในเนื้อเยื่อและช่องว่างอากาศของปอด</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_ABOLITION_POULS</LocID>                                      <Text>คลำชีพจรไม่ได้</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_ABOLITION_POULS_DESCRIPTION</LocID>                          <Text>ไม่พบชีพจรที่อวัยวะ</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_MARBRURE</LocID>                                             <Text>ผิวลายหินอ่อน (Livedo reticularis)</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_MARBRURE_DESCRIPTION</LocID>                                 <Text>Livedo reticularis เป็นลักษณะทางผิวหนังที่พบบ่อย ประกอบด้วยรูปแบบหลอดเลือดที่เป็นตาข่ายลายๆ ซึ่งปรากฏเป็นการเปลี่ยนสีของผิวหนังเป็นสีม่วงคล้ายลูกไม้ การเปลี่ยนสีเกิดจากการบวมของหลอดเลือดดำเล็กเนื่องจากการอุดตันของหลอดเลือดฝอยโดยลิ่มเลือดขนาดเล็ก</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_POUL_HYPERPULSE</LocID>                                      <Text>ชีพจรเต้นแรง (Bounding pulse)</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_POUL_HYPERPULSE_DESCRIPTION</LocID>                          <Text>ชีพจรที่เต้นแรงผิดปกติ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_TURJESCENCE_JUGULAIRE</LocID>                                <Text>หลอดเลือดดำที่คอโป่งพอง (JVD)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_TURJESCENCE_JUGULAIRE_DESCRIPTION</LocID>                    <Text>Jugular vein distention (JVD) เกิดขึ้นเมื่อความดันภายใน Vena cava เพิ่มขึ้นและปรากฏเป็นรอยนูนลงมาทางด้านขวาของคอ</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_REFLUX_HJ</LocID>                                            <Text>ผลทดสอบ AJR เป็นบวก</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_REFLUX_HJ_DESCRIPTION</LocID>                                <Text>สัญญาณ Abdominojugular reflux (AJR) มีประโยชน์ในการวินิจฉัยภาวะหัวใจห้องขวาล้มเหลว</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_HEPATALGIE</LocID>                                           <Text>ปวดตับ (Hepatalgia)</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_HEPATALGIE_DESCRIPTION</LocID>                               <Text>อาการเจ็บปวดที่ตับ</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_SOUFFLE_ABDOMINAL</LocID>                                    <Text>เสียงฟู่ในช่องท้อง</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_SOUFFLE_ABDOMINAL_DESCRIPTION</LocID>                        <Text>การมีเสียงฟู่ในช่องท้องอาจสะท้อนถึงการมีหลอดเลือดแดงใหญ่ในช่องท้องโป่งพองหรือการตีบของหลอดเลือดแดงไต</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_SOUFFLE_VASCULAIRE</LocID>                                   <Text>เสียงฟู่ของหลอดเลือด</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_SOUFFLE_VASCULAIRE_DESCRIPTION</LocID>                       <Text></Text>   </GameDBLocalizedString>
++++  v0.02  +++
+			<GameDBLocalizedString> <LocID>SYM_CRP_MACROGLOSSIA</LocID>                                         <Text>ลิ้นคับปาก (Macroglossia)</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_MACROGLOSSIA_DESCRIPTION</LocID>                             <Text>การเพิ่มขึ้นผิดปกติของขนาดลิ้น</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_HYPOGLYCEMIA</LocID>                                         <Text>น้ำตาลในเลือดต่ำ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_HYPOGLYCEMIA_DESCRIPTION</LocID>                             <Text>ระดับน้ำตาลในเลือดต่ำ</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_GYNECOMASTIA</LocID>                                         <Text>เต้านมโตในผู้ชาย</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_GYNECOMASTIA_DESCRIPTION</LocID>                             <Text>การเพิ่มขึ้นผิดปกติของขนาดเต้านมในผู้ชาย</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_ATROPHIE_TESTICULE</LocID>                                   <Text>ลูกอัณฑะฝ่อ</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_ATROPHIE_TESTICULE_DESCRIPTION</LocID>                       <Text>ขนาดของลูกอัณฑะลดลง</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_DRY_SKIN</LocID>                                             <Text>ผิวแห้ง (Xerosis)</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_DRY_SKIN_DESCRIPTION</LocID>                                 <Text>ผิวแห้งคือผิวที่สูญเสียชั้นไขมันป้องกันและขาดน้ำ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_HYPERPRL</LocID>                                             <Text>โปรแลคตินในเลือดสูง</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_HYPERPRL_DESCRIPTION</LocID>                                 <Text>การเพิ่มขึ้นผิดปกติของความเข้มข้นของโปรแลคตินในพลาสมา</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_INSUFFISANCE_SR_AIGUE</LocID>                                <Text>ต่อมหมวกไตวายเฉียบพลัน</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_INSUFFISANCE_SR_AIGUE_DESCRIPTION</LocID>                    <Text>ภาวะต่อมหมวกไตบกพร่องปฐมภูมิที่เกิดจากการผลิตสเตียรอยด์ของต่อมหมวกไตบกพร่องกะทันหัน</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_HYPOCALCEMIA</LocID>                                         <Text>แคลเซียมในเลือดต่ำ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_HYPOCALCEMIA_DESCRIPTION</LocID>                             <Text>Hypocalcemia คือการลดลงผิดปกติของระดับแคลเซียมในเลือด</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_THROMBOCYTOSE</LocID>                                        <Text>เกล็ดเลือดสูง (Thrombocytosis)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_THROMBOCYTOSE_DESCRIPTION</LocID>                            <Text>Thrombocytosis เป็นภาวะที่มีจำนวนเกล็ดเลือดในเลือดมากเกินไป</Text>    </GameDBLocalizedString>
++++  v0.03  +++
+			<GameDBLocalizedString> <LocID>SYM_CRP_GALLSTONES</LocID>                                           <Text>นิ่วในถุงน้ำดี</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_HTAP</LocID>                                                 <Text>ความดันปอดสูง</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_HEMOLYSE</LocID>                                             <Text>เม็ดเลือดแดงแตก (Hemolysis)</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_MED_APLASIA</LocID>                                          <Text>ไขกระดูกฝ่อ</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_MED_APLASIA_DESCRIPTION</LocID>                              <Text>Bone marrow aplasia หมายถึงภาวะทางโลหิตวิทยาที่เกิดจากการลดลงอย่างมากและ/หรือความบกพร่องในสเต็มเซลล์ หรือความล้มเหลวของสภาพแวดล้อมจุลภาคของไขกระดูกในการรองรับการสร้างเม็ดเลือด</Text>    </GameDBLocalizedString>
++++ v0.03.2 +++
+			<GameDBLocalizedString> <LocID>SYM_CRP_HEPATITIS</LocID>                                            <Text>ตับอักเสบ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_HEPATITIS_DESCRIPTION</LocID>                                <Text>การอักเสบของตับ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_TELANGIECTASIS</LocID>                                       <Text>หลอดเลือดฝอยขยายตัว</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_TELANGIECTASIS_DESCRIPTION</LocID>                           <Text>Telangiectasias หรือ Spider veins เป็นหลอดเลือดขนาดเล็กที่ขยายตัวซึ่งสามารถเกิดขึ้นใกล้ผิวหนังหรือเยื่อเมือก วัดขนาดได้ระหว่าง 0.5 ถึง 1 มิลลิเมตร หลอดเลือดขยายตัวเหล่านี้สามารถเกิดขึ้นได้ทุกที่ในร่างกาย แต่มักพบเห็นได้ทั่วไปบนใบหน้าบริเวณจมูก แก้ม และคาง</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_SURCHARGE_FER</LocID>                                        <Text>ภาวะเหล็กเกิน</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_SURCHARGE_FER_DESCRIPTION</LocID>                            <Text>Iron overload หรือ Hemochromatosis บ่งชี้ถึงการสะสมของธาตุเหล็กในร่างกายจากสาเหตุใดก็ตาม</Text>    </GameDBLocalizedString>
++++ v0.03.3 +++
+			<GameDBLocalizedString> <LocID>SYM_CRP_REJET_GREFFE</LocID>                                         <Text>การปฏิเสธอวัยวะปลูกถ่าย</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_REJET_GREFFE_DESCRIPTION</LocID>                             <Text>ผู้ป่วยอยู่ในกระบวนการปฏิเสธการปลูกถ่าย ซึ่งสอดคล้องกับการทำลายอวัยวะที่ปลูกถ่ายเข้าไปในสิ่งมีชีวิต เนื่องจากการตอบสนองของภูมิคุ้มกันที่ต่อต้านอวัยวะนั้น</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_HEMORRAGIE_DIG_HAUTE</LocID>                                 <Text>เลือดออกทางเดินอาหารส่วนบน</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_HEMORRAGIE_DIG_HAUTE_DESCRIPTION</LocID>                     <Text>ในภาวะ Upper digestive hemorrhage (UDH) เลือดออกจะเกิดขึ้นที่ตำแหน่งเหนือ Ligament of Treitz (หลอดอาหาร กระเพาะอาหาร และลำไส้เล็กส่วนต้น)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_HEMORRAGIE_DIG_BASSE</LocID>                                 <Text>เลือดออกทางเดินอาหารส่วนล่าง</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_CRP_HEMORRAGIE_DIG_BASSE_DESCRIPTION</LocID>                     <Text>ในภาวะ Lower digestive hemorrhage (LDH) การเสียเลือดมีต้นกำเนิดจากตำแหน่งใต้ Ligament of Treitz (ลำไส้เล็กส่วนกลางและปลาย ลำไส้ใหญ่ ทวารหนัก และปากทวาร)</Text>    </GameDBLocalizedString>
+-->	
+			
+			
+			<!-- ================================================== Main ================================================== -->	
+<!--  v0.01  -->
+			<GameDBLocalizedString> <LocID>SYM_MOREDG_RETRECISSEMENT_AORTIQUE</LocID>                           <Text>ลิ้นหัวใจเอออร์ติกตีบ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_RETRECISSEMENT_AORTIQUE_DESCRIPTION</LocID>               <Text>การลดลงของเส้นผ่านศูนย์กลางของลิ้นหัวใจเอออร์ติก</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_INSUFFISANCE_AORTIQUE</LocID>                             <Text>ลิ้นหัวใจเอออร์ติกรั่ว</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_INSUFFISANCE_AORTIQUE_DESCRIPTION</LocID>                 <Text>ลิ้นหัวใจเอออร์ติกทำงานไม่เพียงพอ (รั่ว)</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_URGENCE_HTA</LocID>                                       <Text>ความดันโลหิตสูงรุนแรง</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_URGENCE_HTA_DESCRIPTION</LocID>                           <Text>ความดันโลหิตสูงรุนแรง เกิดขึ้นอย่างรวดเร็ว</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SYNCOPE_REFLEXE</LocID>                                   <Text>เป็นลมจากปฏิกิริยาสะท้อนกลับ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SYNCOPE_REFLEXE_DESCRIPTION</LocID>                       <Text>Reflex syncope คือปฏิกิริยาสะท้อนกลับของระบบประสาทอัตโนมัติที่ทำให้ความดันโลหิตต่ำลงพร้อมกับชีพจรช้าลงอย่างมากตามหลังสิ่งกระตุ้น</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_HYPOTA_ORTHO</LocID>                                      <Text>ผลทดสอบ Orthostatic hypotension เป็นบวก</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_HYPOTA_ORTHO_DESCRIPTION</LocID>                          <Text>ผลการทดสอบความดันโลหิตตกเมื่อเปลี่ยนท่าเป็นบวก</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SYNCOPE_SA</LocID>                                        <Text>ความผิดปกติของการนำไฟฟ้าหัวใจ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SYNCOPE_SA_DESCRIPTION</LocID>                            <Text>การปิดกั้นการนำไฟฟ้าภายในหัวใจแบบชั่วคราวอย่างสมบูรณ์</Text>   </GameDBLocalizedString>    
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_LIPOTHIMIE</LocID>                                        <Text>อาการนำ (Prodromes)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_LIPOTHIMIE_DESCRIPTION</LocID>                            <Text>สัญญาณและอาการที่เกิดขึ้นก่อนการเป็นลมเรียกว่าอาการนำ (Prodromes) ภาวะ Lipothymia (เกือบจะเป็นลม) สรุปได้ว่าเป็นความรู้สึกเหมือนกำลังจะหมดสติ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_FA_ECG</LocID>                                            <Text>พบ AF</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_FA_ECG_DESCRIPTION</LocID>                                <Text>การวินิจฉัย Atrial Fibrillation (AF) สามารถยืนยันได้จากกราฟ ECG เท่านั้น ซึ่งแสดงการไม่มีคลื่น P ที่มองเห็นได้ และ QRS มักจะไม่สม่ำเสมอ</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_BSA_ECG</LocID>                                           <Text>พบ SAB</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_BSA_ECG_DESCRIPTION</LocID>                               <Text>Sino-Atrial Block (SAB) คือการหยุดชะงักอย่างสมบูรณ์ของการนำไฟฟ้าภายในหัวใจห้องบนหลังจากจังหวะไซนัสบางจังหวะ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_BAV3_ECG</LocID>                                          <Text>พบ AVB3</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_BAV3_ECG_DESCRIPTION</LocID>                              <Text>Atrioventricular Block ระดับที่ 3 คือการหยุดชะงักอย่างสมบูรณ์และถาวรของการส่งสัญญาณกระตุ้นจากหัวใจห้องบนไปยังห้องล่าง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_BBG_ECG</LocID>                                           <Text>พบ LBBB</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_BBG_ECG_DESCRIPTION</LocID>                               <Text>ลักษณะทั่วไปของ Left Bundle Branch Block (LBBB) บน ECG</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_TV_ECG</LocID>                                            <Text>พบ VT</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_TV_ECG_DESCRIPTION</LocID>                                <Text>ลักษณะทั่วไปของ Ventricular Tachycardia (VT) บน ECG</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_QT_LONG</LocID>                                           <Text>ช่วง QT ยาว</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_QT_LONG_DESCRIPTION</LocID>                               <Text>การยืดขยายของช่วง QT บน ECG</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_TCJ_ECG</LocID>                                           <Text>พบ JT</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_TCJ_ECG_DESCRIPTION</LocID>                               <Text>Junctional Tachycardia (JT) เป็นกลุ่มของภาวะหัวใจเต้นเร็วที่วงจรเริ่มต้นหรือจำเป็นต้องผ่านรอยต่อ Atrioventricular</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ONDE_DELTA</LocID>                                        <Text>คลื่น Delta</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ONDE_DELTA_DESCRIPTION</LocID>                            <Text>การหนาตัวและช้าลงของส่วนเริ่มต้นของ QRS complex ซึ่งเกี่ยวข้องกับการถูกกระตุ้นก่อน (Pre-excitation) ของหัวใจห้องล่างโดยเส้นทางนำไฟฟ้าเสริม</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_INSUFFISANCE_CARDIAQUE_G</LocID>                          <Text>ค่า LVEF ผิดปกติ</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_INSUFFISANCE_CARDIAQUE_G_DESCRIPTION</LocID>              <Text>Left Ventricle Ejection Fraction (LVEF) คือเปอร์เซ็นต์ของเลือดที่ถูกบีบออกจากหัวใจห้องล่างซ้าย</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_INSUFFISANCE_CARDIAQUE_D</LocID>                          <Text>ค่า RVEF ผิดปกติ</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_INSUFFISANCE_CARDIAQUE_D_DESCRIPTION</LocID>              <Text>Right Ventricle Ejection Fraction (RVEF) คือเปอร์เซ็นต์ของเลือดที่ถูกบีบออกจากหัวใจห้องล่างขวา</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_IPS_BAS</LocID>                                           <Text>ค่า SPI ต่ำ</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_IPS_BAS_DESCRIPTION</LocID>                               <Text>Systolic Pressure Index (SPI) น้อยกว่า 0.9 SPI หรือ ABI ขึ้นอยู่กับการเก็บความดันซิสโตลิกจากแขนและขา และการสร้างอัตราส่วนความดันข้อเท้า / ความดันแขน</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ANEVRISME_AAA</LocID>                                     <Text>หลอดเลือดแดงใหญ่ในช่องท้องโป่งพอง (AAA)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ANEVRISME_AAA_DESCRIPTION</LocID>                         <Text>ค้นพบ Abdominal Aortic Aneurysm (AAA)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ANEVRISME_POPLITE</LocID>                                 <Text>หลอดเลือดแดงหลังเข่าโป่งพอง</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ANEVRISME_POPLITE_DESCRIPTION</LocID>                     <Text>ค้นพบ Popliteal artery aneurysm</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_OCCLUSION_A_COELIAQUE</LocID>                             <Text>หลอดเลือดแดง Celiac อุดตัน</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_OCCLUSION_A_COELIAQUE_DESCRIPTION</LocID>                 <Text>การอุดตันของหลอดเลือดแดง Celiac และ Mesenteric</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ISCHEMIE_MS</LocID>                                       <Text>เนื้อเยื่อแขนขาดเลือด</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ISCHEMIE_MS_DESCRIPTION</LocID>                           <Text>Ischemia คือการหยุดหรือความไม่เพียงพอของการไหลเวียนเลือดในส่วนของร่างกายหรืออวัยวะ ซึ่งทำให้เซลล์ขาดออกซิเจนและนำไปสู่การตายของเนื้อเยื่อ (Necrosis) ภาวะขาดเลือดอาจเกิดจากการอุดตันของหลอดเลือด (Thrombosis) หรือการกดทับของหลอดเลือดแดง (Stenosis)</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ISCHEMIE_MI</LocID>                                       <Text>เนื้อเยื่อขาขาดเลือด</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ISCHEMIE_MI_DESCRIPTION</LocID>                           <Text>Ischemia คือการหยุดหรือความไม่เพียงพอของการไหลเวียนเลือดในส่วนของร่างกายหรืออวัยวะ ซึ่งทำให้เซลล์ขาดออกซิเจนและนำไปสู่การตายของเนื้อเยื่อ (Necrosis) ภาวะขาดเลือดอาจเกิดจากการอุดตันของหลอดเลือด (Thrombosis) หรือการกดทับของหลอดเลือดแดง (Stenosis)</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ISCHEMIE_MESENTERIQUE</LocID>                             <Text>การอุดตันของหลอดเลือดแดง Mesenteric</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ISCHEMIE_MESENTERIQUE_DESCRIPTION</LocID>                 <Text>เป็นการอุดตันของหลอดเลือดแดงเฉียบพลันหรือการไหลเวียนต่ำ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_RUPTURE_ANEVRISME_AAA</LocID>                             <Text>AAA แตก</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_RUPTURE_ANEVRISME_AAA_DESCRIPTION</LocID>                 <Text>หลอดเลือดแดงใหญ่ในช่องท้องที่โป่งพองแตกออก (Ruptured AAA)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_RUPTURE_ANEVRISME_AIC</LocID>                             <Text>IAA แตก</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_RUPTURE_ANEVRISME_AIC_DESCRIPTION</LocID>                 <Text>การแตกของหลอดเลือดแดง Common iliac ที่โป่งพอง</Text>  </GameDBLocalizedString>
+<!-- v0.02 -->
+			<GameDBLocalizedString> <LocID>SYM_MOREDG_TESTO</LocID>                                             <Text>เทสโทสเตอโรนที่ออกฤทธิ์ได้ต่ำ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_TESTO_DESCRIPTION</LocID>                                 <Text>การลดลงอย่างมีนัยสำคัญของฮอร์โมนเทสโทสเตอโรนในกระแสเลือด</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_PROLACTINOME_F</LocID>                                    <Text>เนื้องอกโปรแลคติน</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_PROLACTINOME_H</LocID>                                    <Text>เนื้องอกโปรแลคติน</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_PROLACTINOME_DESCRIPTION</LocID>                          <Text>การค้นพบเนื้องอกโปรแลคติน (Prolactinoma) ใน MRI</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ADENOME_SOMATOTROPE</LocID>                               <Text>เนื้องอกหลั่งฮอร์โมนการเจริญเติบโต</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ADENOME_SOMATOTROPE_DESCRIPTION</LocID>                   <Text>ไม่มีการยับยั้งในระหว่างการทดสอบ "Minute" brake test</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ADENOME_CORTICOTROPE_F</LocID>                            <Text>เนื้องอกหลั่งฮอร์โมนกระตุ้นต่อมหมวกไต</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ADENOME_CORTICOTROPE_H</LocID>                            <Text>เนื้องอกหลั่งฮอร์โมนกระตุ้นต่อมหมวกไต</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ADENOME_CORTICOTROPE_DESCRIPTION</LocID>                  <Text>การทดสอบสนับสนุนการวินิจฉัยภาวะคอร์ติซอลเกินที่ไม่สามารถรักษาได้ หากระดับคอร์ติซอลในเลือดไม่ลดลงต่ำกว่าเกณฑ์ 18 ng/ml [50 nmol/l]</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ADENOME_THYREOTROPE</LocID>                               <Text>เนื้องอกหลั่งฮอร์โมนกระตุ้นไทรอยด์</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ADENOME_THYREOTROPE_DESCRIPTION</LocID>                   <Text>การค้นพบไทรอยด์เป็นพิษจากสมอง (Central hyperthyroidism) ในการตรวจเลือด ซึ่งมีลักษณะคือความเข้มข้นของฮอร์โมนไทรอยด์สูง ร่วมกับความเข้มข้นของ TSH ที่ปกติค่อนข้างสูงหรือผิดปกติ</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_PAN_HYPOPITUITARISME_F</LocID>                            <Text>ภาวะต่อมใต้สมองทำงานบกพร่องสมบูรณ์</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_PAN_HYPOPITUITARISME_H</LocID>                            <Text>ภาวะต่อมใต้สมองทำงานบกพร่องสมบูรณ์</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_PAN_HYPOPITUITARISME_DESCRIPTION</LocID>                  <Text>การค้นพบเนื้องอกต่อมใต้สมองที่ขัดขวางการทำงานที่เหมาะสมของต่อมไพเนียลใน MRI</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ISRNP_F</LocID>                                           <Text>ต่อมหมวกไตบกพร่องปฐมภูมิ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ISRNP_H</LocID>                                           <Text>ต่อมหมวกไตบกพร่องปฐมภูมิ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ISRNP_DESCRIPTION</LocID>                                 <Text>การค้นพบภาวะต่อมหมวกไตบกพร่องปฐมภูมิ (Peripheral adrenal insufficiency) ในระหว่างการทดสอบ Synacthene มีลักษณะคือระดับคอร์ติซอลต่ำร่วมกับความเข้มข้นของ ACTH สูง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_21OH_F</LocID>                                            <Text>ภาวะขาด 21-OH</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_21OH_H</LocID>                                            <Text>ภาวะขาด 21-OH</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_21OH_DESCRIPTION</LocID>                                  <Text>การวินิจฉัย D21OH-NC ขึ้นอยู่กับการวัดระดับ 17OHP ในตอนเช้าและดีที่สุดในช่วงแรกของรอบเดือน ต้องเก็บตัวอย่างโดยปราศจากหรือห่างจากการรักษาด้วย Glucocorticoids การเก็บตัวอย่างเพื่อหาค่า 17OHP ต้องทำในตอนเช้า เพราะหากทำในตอนบ่าย ความเข้มข้นของ 17OHP อาจอยู่ในช่วงปกติในผู้ป่วย D21OH-NC เนื่องจากความผันผวนตามจังหวะเวลา (Nycthemeral fluctuations) ของการทำงานของต่อมหมวกไต</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ISF_CORTICOT</LocID>                                      <Text>ต่อมหมวกไตบกพร่องส่วนกลาง</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ISF_CORTICOT_DESCRIPTION</LocID>                          <Text>การค้นพบภาวะต่อมหมวกไตบกพร่องส่วนกลาง (Central adrenal insufficiency) ในระหว่างการทดสอบ Synacthene มีลักษณะคือระดับคอร์ติซอลต่ำร่วมกับความเข้มข้นของ ACTH ที่ต่ำหรือปกติผิดปกติ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_AC_ANTI_CASR</LocID>                                      <Text>แอนติบอดี Anti-CASR</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_AC_ANTI_CASR_DESCRIPTION</LocID>                          <Text>การค้นพบแอนติบอดี anti-CASR ในระหว่างการทดสอบ ELISA</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ADENOME_PARATHYROIDE</LocID>                              <Text>เนื้องอกต่อมพาราไทรอยด์</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ADENOME_PARATHYROIDE_DESCRIPTION</LocID>                  <Text>เนื้องอกต่อมพาราไทรอยด์แสดงการจับตัวของสารรังสีในการทำ Scintigraphy</Text>    </GameDBLocalizedString>
+            
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_CONN</LocID>                                              <Text>เนื้องอกต่อมหมวกไต</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_CONN_DESCRIPTION</LocID>                                  <Text>การค้นพบเนื้องอกต่อมหมวกไตที่หลั่งฮอร์โมนใน CT scan</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_HPBL_SRN</LocID>                                          <Text>ต่อมหมวกไตโต</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_HPBL_SRN_DESCRIPTION</LocID>                              <Text>ขนาดของต่อมหมวกไตเพิ่มขึ้นใน CT scan</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_INSULINOME</LocID>                                        <Text>การหลั่งฮอร์โมนไม่เหมาะสม</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_INSULINOME_DESCRIPTION</LocID>                            <Text>การหลั่งอินซูลินและเปปไทด์ C ที่ไม่เหมาะสม (ปกติหรือสูง) ในขณะที่มีภาวะน้ำตาลในเลือดต่ำ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SD_HGP</LocID>                                            <Text>น้ำตาลในเลือดต่ำจากตับอ่อน</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SD_HGP_DESCRIPTION</LocID>                                <Text>ภาวะน้ำตาลในเลือดต่ำที่มีต้นกำเนิดจากตับอ่อนซึ่งไม่ได้เชื่อมโยงกับเนื้องอกที่หลั่งอินซูลิน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_THYROIDE_QUERVAIN</LocID>                                 <Text>ภาพสแกนไทรอยด์สีขาว (White scintigraphy)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_THYROIDE_QUERVAIN_DESCRIPTION</LocID>                     <Text>ไม่มีการจับตัวของสารรังสีในการทำ Scintigraphy</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_GOITRE_MULTINODULAIRE_TOXIQUE</LocID>                     <Text>ภาพสแกนลายหมากรุก (Checkerboard)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_GOITRE_MULTINODULAIRE_TOXIQUE_DESCRIPTION</LocID>         <Text>พื้นที่ร้อนและเย็นสลับกัน (ลายหมากรุก) ในการทำ Scintigraphy</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ADENOME_TOXIQUE</LocID>                                   <Text>เนื้องอกเป็นพิษ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ADENOME_TOXIQUE_DESCRIPTION</LocID>                       <Text>การจับตัวของไอโซโทปสูงมาก (Hyperfixation) ที่ระดับของก้อนเนื้องอก ในขณะที่เนื้อเยื่อส่วนที่เหลือจับตัวน้อยหรือเย็นหรือ "ดับ" (เนื่องจากการลดลงของ TSH) ในการทำ Scintigraphy</Text>   </GameDBLocalizedString>
+
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_HYPEROSMOLAIRE</LocID>                                    <Text>เลือดข้นผิดปกติ (Hyperosmolality)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_HYPEROSMOLAIRE_DESCRIPTION</LocID>                        <Text>ความเข้มข้นของเลือด (Osmolality) สูงผิดปกติ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_CETONEMIE</LocID>                                         <Text>คีโตนในเลือด</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_CETONEMIE_DESCRIPTION</LocID>                             <Text>มีคีโตนมากเกินไปในเลือด</Text> </GameDBLocalizedString>
+<!-- v0.03 -->
+			<GameDBLocalizedString> <LocID>SYM_MOREDG_PBG-D</LocID>                                             <Text>เอนไซม์ PBG-D ต่ำ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_PBG-D_DESCRIPTION</LocID>                                 <Text>Porphobilinogen deaminase (หรือ Hydroxymethylbilane synthase หรือ Uroporphyrinogen I synthase) เป็นเอนไซม์ที่ในมนุษย์ถูกเข้ารหัสโดยยีน HMBS Porphobilinogen deaminase เกี่ยวข้องกับขั้นตอนที่สามของวิถีการสังเคราะห์ Heme</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SPHEROCYTE</LocID>                                        <Text>เม็ดเลือดแดงทรงกลม (Spherocyte)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SPHEROCYTE_DESCRIPTION</LocID>                            <Text>การค้นพบเม็ดเลือดแดงทรงกลม (Spherocytes) ในการตรวจสเมียร์เลือด</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_DEFICIT_GPI</LocID>                                       <Text>เอนไซม์ GPI ต่ำ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_DEFICIT_GPI_DESCRIPTION</LocID>                           <Text>Glucose-6-phosphate isomerase (GPI) หรือ Phosphoglucose isomerase (PGI) เป็นเอนไซม์ที่เข้ารหัสโดยยีน GPI บนโครโมโซม 19 ในมนุษย์ ในไซโตพลาสซึม ผลิตภัณฑ์ของยีนทำหน้าที่เป็นเอนไซม์ Glycolytic ที่เปลี่ยนกลับไปมาระหว่าง Glucose-6-phosphate (G6P) และ Fructose-6-phosphate (F6P)</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_DEFICIT_G6PD</LocID>                                      <Text>เอนไซม์ G6PD ต่ำ</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_DEFICIT_G6PD_DESCRIPTION</LocID>                          <Text>Glucose-6-phosphate dehydrogenase (G6PD) เป็นเอนไซม์ในไซโตพลาสซึมที่ช่วยปกป้องเม็ดเลือดแดงจากความเสียหายจากปฏิกิริยาออกซิเดชันจากสารประกอบเช่น ไฮโดรเจนเปอร์ออกไซด์</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_PK_BAS</LocID>                                            <Text>เอนไซม์ PK ต่ำ</Text>     </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_PK_BAS_DESCRIPTION</LocID>                                <Text>Pyruvate kinase เป็นเอนไซม์ที่เกี่ยวข้องกับขั้นตอนสุดท้ายของ Glycolysis</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MORE_DG_TEST_COMBS_D</LocID>                                     <Text>ผล Coombs +</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MORE_DG_TEST_COMBS_D_DESCRIPTION</LocID>                         <Text>ผลการทดสอบ Coombs test เป็นบวก</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_DEFICIT_ADAMTS13</LocID>                                  <Text>เอนไซม์ ADAMTS13 ต่ำ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_DEFICIT_ADAMTS13_DESCRIPTION</LocID>                      <Text>ADAMTS13 (หรือ Von Willebrand factor-cleaving protease - VWFCP) เป็นเอนไซม์ Metalloprotease ที่มีสังกะสีเป็นองค์ประกอบ ทำหน้าที่ตัดโปรตีน Von Willebrand factor (vWf) ซึ่งเป็นโปรตีนขนาดใหญ่ที่เกี่ยวข้องกับการแข็งตัวของเลือด</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_DREPANOCYTE_A</LocID>                                     <Text>เม็ดเลือดแดงรูปเคียว (Drepanocyte)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_DREPANOCYTE_C</LocID>                                     <Text>เม็ดเลือดแดงรูปเคียว (Drepanocyte)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_DREPANOCYTE_DESCRIPTION</LocID>                           <Text>การค้นพบเม็ดเลือดแดงรูปเคียว (Drepanocytes) ในการตรวจสเมียร์เลือด</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_vWF</LocID>                                               <Text>vWF ต่ำ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_vWF_DESCRIPTION</LocID>                                   <Text>Von Willebrand factor (VWF) เป็นไกลโคโปรตีนในเลือดที่เกี่ยวข้องกับการห้ามเลือด</Text>    </GameDBLocalizedString>
+
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_PURPURA_FULMINANS</LocID>                                 <Text>จ้ำเลือดรุนแรง (Purpura fulminans)</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_PURPURA_FULMINANS_DESCRIPTION</LocID>                     <Text>ตรวจพบภาวะ Purpura fulminans</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_CIVD_DECOMPENSE</LocID>                                   <Text>ภาวะ DIC ระยะล้มเหลว</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_CIVD_DECOMPENSE_DESCRIPTION</LocID>                       <Text>ตรวจพบภาวะ Disseminated Intravascular Coagulation (DIC)</Text>    </GameDBLocalizedString>
+<!-- v0.03.2 -->
+			<GameDBLocalizedString> <LocID>SYM_MOREDG_NPC1_MUTE</LocID>                                         <Text>การกลายพันธุ์ยีน NPC1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_NPC1_MUTE_DESCRIPTION</LocID>                             <Text>โปรตีน NPC1 และ NPC2 ดูเหมือนจะทำงานที่ระดับของระบบ Endo-lysosomal เพื่ออำนวยความสะดวกในการขนส่งคอเลสเตอรอลและโมเลกุลอื่นๆ ภายในเซลล์ แต่การทำงานที่แม่นยำยังไม่เป็นที่ทราบแน่ชัด</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_IGE_PNE</LocID>                                           <Text>IgE สูง</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_IGE_PNE_DESCRIPTION</LocID>                               <Text>ภาวะเม็ดเลือดขาวชนิดอีโอซิโนฟิลสูงและ IgE รวมสูง</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_CASSURE_K</LocID>                                         <Text>ผลทดสอบโครโมโซม +</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_CASSURE_K_DESCRIPTION</LocID>                             <Text>การวิเคราะห์การแตกหักของโครโมโซมเป็นบวก</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_PLAQUETTES_GEANTES</LocID>                                <Text>เกล็ดเลือดขนาดยักษ์ (Macrothrombocytes)</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_PLAQUETTES_GEANTES_DESCRIPTION</LocID>                    <Text>พบเกล็ดเลือดขนาดยักษ์มากกว่า 10% ของเกล็ดเลือดที่ศึกษา</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_DEFICIT_AIIB_B3</LocID>                                   <Text>Integrin ผิดปกติ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_DEFICIT_AIIB_B3_DESCRIPTION</LocID>                       <Text>พบความผิดปกติเชิงปริมาณและ/หรือคุณภาพของ Integrin alphaIIb beta3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_MUTATION_RP</LocID>                                       <Text>การกลายพันธุ์ RP</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_MUTATION_RP_DESCRIPTION</LocID>                           <Text>Ribosomal proteins (RPs) จากหน่วยย่อยไรโบโซมขนาดเล็ก (RPS7, RPS17, RPS19, RPS24) หรือขนาดใหญ่ (RPL5, RPL11, RPL35a) มีการกลายพันธุ์</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_GLUCOCEREBROSIDASE</LocID>                                <Text>ขาดเอนไซม์ Glucocerebrosidase</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_GLUCOCEREBROSIDASE_DESCRIPTION</LocID>                    <Text>ระดับ Glucocerebrosidase ต่ำนำไปสู่การสะสมของ Glucosylceramide deposits</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_MUTATION_SH2D1A</LocID>                                   <Text>การกลายพันธุ์ SH2D1A</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_MUTATION_SH2D1A_DESCRIPTION</LocID>                       <Text>การกลายพันธุ์ของยีน SH2D1A ซึ่งอยู่บนโครโมโซม X ยีนนี้เข้ารหัสโปรตีนที่เรียกว่า SAP (Signalling lymphocyte activation molecular [SLAM] associated protein)</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SIDEROBLASTE</LocID>                                      <Text>เซลล์ Sideroblast</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_SIDEROBLASTE_DESCRIPTION</LocID>                          <Text>พบเซลล์ Sideroblasts เหล่านี้เป็นแกรนูลที่มีธาตุเหล็กซึ่งย้อมติดสีด้วยน้ำยา Perls ซึ่งสอดคล้องกับการรวมตัวของไรโบโซมและเฟอร์ริติน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ERYTHROBLASTOPENIE</LocID>                                <Text>เซลล์ Erythroblast ต่ำ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ERYTHROBLASTOPENIE_DESCRIPTION</LocID>                    <Text>อัตรา Erythroblast ต่ำ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_HÉMOGLOBINE_C</LocID>                                     <Text>ฮีโมโกลบิน C</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_HÉMOGLOBINE_C_DESCRIPTION</LocID>                         <Text>การค้นพบฮีโมโกลบินชนิด C ด้วยการตรวจสเมียร์เลือด</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_HÉMOGLOBINE_D</LocID>                                     <Text>ฮีโมโกลบิน D</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_HÉMOGLOBINE_D_DESCRIPTION</LocID>                         <Text>การค้นพบฮีโมโกลบินชนิด D ด้วยการตรวจสเมียร์เลือด</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_HÉMOGLOBINE_E</LocID>                                     <Text>ฮีโมโกลบิน E</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_HÉMOGLOBINE_E_DESCRIPTION</LocID>                         <Text>การค้นพบฮีโมโกลบินชนิด E ด้วยการตรวจสเมียร์เลือด</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_HÉMOGLOBINE_M</LocID>                                     <Text>ฮีโมโกลบิน M</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_HÉMOGLOBINE_M_DESCRIPTION</LocID>                         <Text>การค้นพบฮีโมโกลบินชนิด M ด้วยการตรวจสเมียร์เลือด</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_TRIADE_PLUMMER_VINSON</LocID>                             <Text>3 อาการ Plummer-Vinson</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_TRIADE_PLUMMER_VINSON_DESCRIPTION</LocID>                 <Text>กลุ่มอาการคลาสสิกสามอย่างคือ กลืนลำบาก โลหิตจางจากการขาดธาตุเหล็ก และมีแผ่นเนื้อเยื่อในหลอดอาหาร (Esophageal webs)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_MUTATION_ACVRL_ENG</LocID>                                <Text>การกลายพันธุ์ ACVRL/ENG</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_MUTATION_ACVRL_ENG_DESCRIPTION</LocID>                    <Text>พบการกลายพันธุ์ในหนึ่งในสองยีน ACVRL หรือ ENG ที่เกี่ยวข้องกับวิถีสัญญาณ TGF-beta</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_LT_ANORMAL</LocID>                                        <Text>ผล Coombs +</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_LT_ANORMAL_DESCRIPTION</LocID>                            <Text>ผลการทดสอบ Coombs test เป็นบวก</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_MUTATION_HFE</LocID>                                      <Text>การกลายพันธุ์ HFE</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_MUTATION_HFE_DESCRIPTION</LocID>                          <Text>ยีน HFE ที่อยู่บนโครโมโซม 6 มีการกลายพันธุ์ มีการเปลี่ยนแปลงสองประเภท: การกลายพันธุ์ C282Y และการกลายพันธุ์ H63D</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_MUTATION_HJV_OU_HAMP</LocID>                              <Text>การกลายพันธุ์ HJV/HAMP</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_MUTATION_HJV_OU_HAMP_DESCRIPTION</LocID>                  <Text>พบการกลายพันธุ์ในยีนที่เข้ารหัส Hemojuvelin (HJV) บนโครโมโซม 1 หรือการกลายพันธุ์ในยีนที่เข้ารหัส Hepcidin (HAMP) บนโครโมโซม 19</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_MUTATION_TFR2</LocID>                                     <Text>การกลายพันธุ์ TFR2</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_MUTATION_TFR2_DESCRIPTION</LocID>                         <Text>พบการกลายพันธุ์ในยีน Transferrin receptor-2 (TFR2) บนโครโมโซม 7</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_MUTATION_SLC40A1</LocID>                                  <Text>การกลายพันธุ์ SLC40A1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_MUTATION_SLC40A1_DESCRIPTION</LocID>                      <Text>พบการกลายพันธุ์ในยีน SLC40A1 ที่อยู่บนโครโมโซม 2 ซึ่งเข้ารหัส Ferroportin (FPN)</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_MO_HYPOCELLULAIRE</LocID>                                 <Text>ไขกระดูกเซลล์ต่ำ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_MO_HYPOCELLULAIRE_DESCRIPTION</LocID>                     <Text>ไขกระดูกมีเซลล์น้อย (Hypocellular) หรือ "ว่างเปล่า"</Text> </GameDBLocalizedString>
+
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_PURPURA_THROMBOPENIQUE</LocID>                            <Text>จ้ำเลือดจากเกล็ดเลือดต่ำ</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_PURPURA_THROMBOPENIQUE_DESCRIPTION</LocID>                <Text>อาการที่บ่งชี้ถึงภาวะ Thrombocytopenic purpura</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_DRESS_SD</LocID>                                          <Text>กลุ่มอาการ DRESS</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_DRESS_SD_DESCRIPTION</LocID>                              <Text>อาการที่บ่งชี้ถึงกลุ่มอาการ DRESS</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ANTICORPS_ANTI_F4P</LocID>                                <Text>แอนติบอดีต่อ PF4</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_ANTICORPS_ANTI_F4P_DESCRIPTION</LocID>                    <Text>ตรวจพบแอนติบอดี Anti-PF4 / heparin โดยวิธี ELISA</Text>   </GameDBLocalizedString>
+<!-- v0.03.3 -->
+			<GameDBLocalizedString> <LocID>SYM_MOREDG_CORTISOL_EFF</LocID>                                      <Text>คอร์ติซอลต่ำมาก</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_CORTISOL_EFF_DESCRIPTION</LocID>                          <Text>ระดับคอร์ติซอลในเลือดต่ำมาก</Text>   </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_TRANSPLANTATION_COEUR</LocID>                             <Text>การปลูกถ่าย</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>SYM_MOREDG_TRANSPLANTATION_COEUR_DESCRIPTION</LocID>                 <Text>ผู้ป่วยรายนี้ต้องการการปลูกถ่ายหัวใจอย่างเร่งด่วน!</Text>    </GameDBLocalizedString>
+				
+		</LocalizedStrings>
+
+  
+	</GameDBStringTable>
+</Database>
